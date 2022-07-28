@@ -5,17 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: readmes
-  label: dir
-  create: documents
+  path: ''
+  label: Root
+  create: all
   match: "**/*"
-- type: heading
-  label: heading
-- type: document
-  path: readme
-  label: readme
-  match: "**/*"
-  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

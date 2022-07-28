@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: readmes
+  label: dir
+  create: documents
+  match: "**/*"
+- type: heading
+  label: heading
 - type: document
   path: readme
   label: readme

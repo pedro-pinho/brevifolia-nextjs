@@ -181,7 +181,7 @@ export async function getStaticProps({ ...ctx }) {
   return {
     props: {
       siteTitle: config.title,
-      frontmatter: data.data,
+      frontmatter: JSON.parse(JSON.stringify(data.data)),
       markdownBody: data.content,
     },
   }

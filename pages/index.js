@@ -46,7 +46,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      allBlogs: posts,
+      allBlogs: JSON.parse(JSON.stringify(posts)),
       title: siteConfig.default.title,
       description: siteConfig.default.description,
     },

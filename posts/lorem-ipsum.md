@@ -2,7 +2,7 @@
 title: Lorem Ipsum
 author: Pedro Pinho
 date: 2022-07-28T00:00:00-03:00
-Image: "/enhanced-15581-1444250680-1-2022-07-28.webp"
+hero_image: "/enhanced-15581-1444250680-1-2022-07-28.webp"
 
 ---
 ## Lorem ipsum dolor sit amet, consectetur adipiscing elit.
